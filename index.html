@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <h1>Body Mass Index</h1>
+        <p>Masukkan berat badan dan tinggi badan anda</p>
+      </header>
+
+      <!-- form -->
+      <section class="form">
+        <p class="text">Masukkan berat badan (KG)</p>
+        <input type="number" id="weight" placeholder="berat badan" required />
+        <p class="text">Masukkan tinggi badan (CM)</p>
+        <input type="number" id="height" placeholder="tinggi badan" required />
+        <br />
+        <button id="btn" onclick="BMI()">Hitung BMI</button>
+      </section>
+
+      <!-- hasil -->
+      <section class="hasil">
+        <p id="hasil"></p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
